@@ -1,0 +1,13 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.bg-lalala{
+	background:hsl(27, 100%, 60%);
+}
+
+.bg-lalala:hover{
+	background: hsl(27, 100%, 80%);
+	transition:all ease .5s;
+}
